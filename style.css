@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: 'Kanit', sans-serif;
+  background: #ec2c9c;
+  color: #333;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #ffe0ec, #f5d0fe);
+}
+
+.login-container {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.login-container input {
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 15px;
+  width: 200px;
+}
+
+.login-container button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login-container .hint {
+  font-size: 0.85em;
+  color: #777;
+  margin-top: 10px;
+}
+
+/* หน้าเว็บหลัก */
+.hero {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1400&q=80');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: rgba(17, 17, 19, 0.822);
+  padding: 60px;
+  text-align: center;
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  max-width: 100%;
+}
+
+.overlay h1 {
+  font-size: 4em;
+  margin: 0;
+}
+
+.subtext {
+  font-size: 2.2em;
+  margin-top: 10px;
+}
+
+.content {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.photo {
+  width: 90%;
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.message-box {
+  max-width: 600px;
+  margin: auto;
+  background: linear-gradient(145deg, #ffe4ec, #fff);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  color: #6b2b5b;
+}
+
+.message-box h2 {
+  margin-top: 0;
+  font-size: 1.8em;
+  color: #cc3366;
+}
+
+.message-box p {
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  background-color: #fce4ec;
+  color: #444;
+}
